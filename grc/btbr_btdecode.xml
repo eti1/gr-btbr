@@ -1,0 +1,20 @@
+<block>
+  <name>Btdecode</name>
+  <key>btbr_btdecode</key>
+  <category>[BTBR]</category>
+  <import>import btbr</import>
+  <make>btbr.btdecode($chan_num)</make>
+  <param>
+    <name>Chan_num</name>
+    <key>chan_num</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+	<source>
+		<name>out</name>
+		<type>message</type>
+	</source>
+</block>
